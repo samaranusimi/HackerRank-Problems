@@ -1,0 +1,19 @@
+#include <stdio.h>
+int main()
+{
+    int a,b;
+    int u,v;
+    float c,d;
+    float w,x;
+    scanf("%d%d",&a,&b);
+    scanf("%f%f",&c,&d);
+    scanf("%d%d",&u,&v);
+    scanf("%f%f",&w,&x);
+    u=a+b;
+    v=a-b;
+    w=c+d;
+    x=c-d;
+    printf("%d %d\n",u,v);
+    printf("%.1f %.1f",w,x);
+     return 0;
+}
